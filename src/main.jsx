@@ -7,7 +7,7 @@ import App from './App.jsx';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <HashRouter basename={`${import.meta.env.VITE_PUBLIC_URL}`}>
+    <HashRouter>
       <App />
     </HashRouter>
   </StrictMode>
