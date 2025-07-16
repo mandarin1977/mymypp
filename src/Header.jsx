@@ -10,6 +10,8 @@ function Header(){
                 <li><Link to="/counter">Counter</Link></li>
                 <li><Link to="/hello">Hello</Link></li>
                 <li><Link to="/inputsample">InputSample</Link></li>
+                <li><Link to="/inputtest">InputTest</Link></li>
+                <li><Link to="/inputsamples">InputSamples</Link></li>
             </ul>
         </header>
 

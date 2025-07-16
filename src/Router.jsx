@@ -4,6 +4,8 @@ import App_02 from './App_02';
 import Counter from "./Counter";
 import Hello from "./Hello";
 import InputSample from "./InputSample";
+import InputTest from "./InputTest";
+import InputSamples from "./InputSamples";
 
 function Router(){
 return(
@@ -13,6 +15,8 @@ return(
         <Route path="/counter" element={<Counter/>} />
         <Route path="/hello" element={<Hello/>} />
         <Route path="/inputsample" element={<InputSample/>} />
+        <Route path="/inputtest" element={<InputTest/>} />
+        <Route path="/inputsamples" element={<InputSamples/>}/>
     </Routes>
 )
 }
